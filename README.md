@@ -1,16 +1,23 @@
-## Hi there 👋
+### Hi, I'm Urooj 👋
 
-<!--
-**UroojFatima-052/UroojFatima-052** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software Engineering student at SMIU Karachi, building things with Python — mostly backend systems and data-driven applications.
 
-Here are some ideas to get you started:
+I'm drawn to work where tech meets purpose. My long-term goal is to build something that genuinely helps people, not just something that ships.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**What I'm working on**
+- Backend AI Engineering intern at FlyRank
+- Playing with data — cleaning it, learning from it, turning it into something useful
+- Currently exploring DevOps and video editing on the side
+
+**Tech I work with**
+`Python` `Flask` `FastAPI` `PostgreSQL` `scikit-learn` `PyTorch` `React Native` `REST APIs`
+
+**Recent projects**
+- [Zariya](https://zariya-s2xm.onrender.com) — multi-role donation platform (Flask)
+- [Sentiment Analysis Pipeline](https://huggingface.co/UroojFatima-22) — ML on mobile phone reviews (live on Hugging Face)
+- More on my pinned repos below
+
+**Beyond code**
+Interested in open source, DevOps, and telling stories through video. Based in Karachi 🇵🇰.
+
+Reach me on [LinkedIn](https://www.linkedin.com/in/urooj-022-fatima) or drop me an email.
