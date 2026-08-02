@@ -14,7 +14,7 @@ I'm drawn to work where tech meets purpose. My long-term goal is to build someth
 
 **Recent projects**
 - [Zariya](https://zariya-s2xm.onrender.com) — multi-role donation platform (Flask)
-- [Sentiment Analysis Pipeline](https://huggingface.co/UroojFatima-22) — ML on mobile phone reviews (live on Hugging Face)
+- [Sentiment Analysis Pipeline](https://huggingface.co/spaces/UroojFatima-22/Sentiment-Analysis) — ML on mobile phone reviews (live on Hugging Face)
 - More on my pinned repos below
 
 **Beyond code**
