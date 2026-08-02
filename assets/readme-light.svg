@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1260" width="900" height="1260" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1420" width="900" height="1420" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
   <style>
     .txt { fill: #24292f; font-size: 16px; }
     .mut { fill: #6e7781; font-size: 16px; }
@@ -10,7 +10,7 @@
     .chip { font-size: 14px; font-weight: 500; }
   </style>
 
-  <rect width="900" height="1260" rx="12" fill="#fbfcfd" stroke="#d0d7de" stroke-width="0.5"/>
+  <rect width="900" height="1420" rx="12" fill="#fbfcfd" stroke="#d0d7de" stroke-width="0.5"/>
 
   <text x="450" y="50" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
 
@@ -95,4 +95,18 @@
     <text x="80" y="1225"><tspan class="mut"> *   </tspan><tspan class="kw">@license </tspan><tspan class="txt">   be kind</tspan></text>
     <text x="80" y="1255" class="mut"> */</text>
   </g>
+
+  <text x="450" y="1305" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
+
+  <g font-size="18" text-anchor="middle">
+    <text x="450" y="1345">
+      <tspan fill="#d13487">✦</tspan>
+      <tspan fill="#8250df">      ·      </tspan>
+      <tspan fill="#0969da">✧</tspan>
+      <tspan fill="#1a7f37">      ·      </tspan>
+      <tspan fill="#d13487">✦</tspan>
+    </text>
+  </g>
+
+  <text x="80" y="1395" xml:space="preserve"><tspan fill="#1a7f37" font-size="18">&gt;</tspan><tspan class="txt" font-size="16"> pinned repos below</tspan> <tspan class="mut" font-size="16">↓</tspan></text>
 </svg>
