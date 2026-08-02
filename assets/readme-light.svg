@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1420" width="900" height="1420" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
   <style>
     .txt { fill: #24292f; font-size: 16px; }
     .mut { fill: #6e7781; font-size: 16px; }
@@ -7,11 +7,13 @@
     .pur { fill: #8250df; font-size: 16px; }
     .pnk { fill: #d13487; font-size: 16px; }
     .gry { fill: #57606a; font-size: 16px; }
+    .grn { fill: #1a7f37; font-size: 16px; }
+    .teal { fill: #0a7e70; font-size: 16px; }
     .str { fill: #0a3069; font-size: 16px; }
     .chip { font-size: 14px; font-weight: 500; }
   </style>
 
-  <rect width="900" height="1420" rx="12" fill="#fbfcfd" stroke="#d0d7de" stroke-width="0.5"/>
+  <rect width="900" height="1600" rx="12" fill="#fbfcfd" stroke="#d0d7de" stroke-width="0.5"/>
 
   <text x="450" y="50" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
 
@@ -40,6 +42,7 @@
     <text x="80" y="715"><tspan class="kw">    :dependencies:</tspan></text>
   </g>
 
+  <!-- LANGUAGES -->
   <text x="80" y="775" xml:space="preserve"><tspan class="pur">    ◆  languages</tspan></text>
   <g transform="translate(120, 790)">
     <rect x="0" y="0" width="72" height="26" rx="5" fill="#fff8c5"/>
@@ -50,28 +53,57 @@
     <text x="211" y="18" fill="#0969da" text-anchor="middle" class="chip">sql</text>
   </g>
 
-  <text x="80" y="850" xml:space="preserve"><tspan class="kw">    ◆  backend</tspan></text>
+  <!-- FRONTEND -->
+  <text x="80" y="850" xml:space="preserve"><tspan class="teal">    ◆  frontend</tspan></text>
   <g transform="translate(120, 865)">
+    <rect x="0" y="0" width="60" height="26" rx="5" fill="#d4f7f0"/>
+    <text x="30" y="18" fill="#0a7e70" text-anchor="middle" class="chip">react</text>
+    <rect x="70" y="0" width="110" height="26" rx="5" fill="#d4f7f0"/>
+    <text x="125" y="18" fill="#0a7e70" text-anchor="middle" class="chip">react native</text>
+  </g>
+
+  <!-- BACKEND -->
+  <text x="80" y="925" xml:space="preserve"><tspan class="kw">    ◆  backend</tspan></text>
+  <g transform="translate(120, 940)">
     <rect x="0" y="0" width="60" height="26" rx="5" fill="#ddf4ff"/>
     <text x="30" y="18" fill="#0969da" text-anchor="middle" class="chip">flask</text>
     <rect x="70" y="0" width="76" height="26" rx="5" fill="#ddf4ff"/>
     <text x="108" y="18" fill="#0969da" text-anchor="middle" class="chip">fastapi</text>
-    <rect x="156" y="0" width="90" height="26" rx="5" fill="#ddf4ff"/>
-    <text x="201" y="18" fill="#0969da" text-anchor="middle" class="chip">rest apis</text>
+    <rect x="156" y="0" width="68" height="26" rx="5" fill="#ddf4ff"/>
+    <text x="190" y="18" fill="#0969da" text-anchor="middle" class="chip">nodejs</text>
+    <rect x="234" y="0" width="90" height="26" rx="5" fill="#ddf4ff"/>
+    <text x="279" y="18" fill="#0969da" text-anchor="middle" class="chip">rest apis</text>
   </g>
 
-  <text x="80" y="925" xml:space="preserve"><tspan class="pnk">    ◆  ai / ml</tspan></text>
-  <g transform="translate(120, 940)">
+  <!-- DATABASES -->
+  <text x="80" y="1000" xml:space="preserve"><tspan class="grn">    ◆  databases</tspan></text>
+  <g transform="translate(120, 1015)">
+    <rect x="0" y="0" width="82" height="26" rx="5" fill="#dcffe4"/>
+    <text x="41" y="18" fill="#1a7f37" text-anchor="middle" class="chip">supabase</text>
+    <rect x="92" y="0" width="82" height="26" rx="5" fill="#dcffe4"/>
+    <text x="133" y="18" fill="#1a7f37" text-anchor="middle" class="chip">firebase</text>
+    <rect x="184" y="0" width="96" height="26" rx="5" fill="#dcffe4"/>
+    <text x="232" y="18" fill="#1a7f37" text-anchor="middle" class="chip">postgresql</text>
+  </g>
+
+  <!-- AI / ML -->
+  <text x="80" y="1075" xml:space="preserve"><tspan class="pnk">    ◆  ai / ml</tspan></text>
+  <g transform="translate(120, 1090)">
     <rect x="0" y="0" width="108" height="26" rx="5" fill="#ffeff7"/>
     <text x="54" y="18" fill="#a4133c" text-anchor="middle" class="chip">scikit-learn</text>
     <rect x="118" y="0" width="76" height="26" rx="5" fill="#ffeff7"/>
     <text x="156" y="18" fill="#a4133c" text-anchor="middle" class="chip">pytorch</text>
-    <rect x="204" y="0" width="104" height="26" rx="5" fill="#ffeff7"/>
-    <text x="256" y="18" fill="#a4133c" text-anchor="middle" class="chip">huggingface</text>
+    <rect x="204" y="0" width="68" height="26" rx="5" fill="#ffeff7"/>
+    <text x="238" y="18" fill="#a4133c" text-anchor="middle" class="chip">pandas</text>
+    <rect x="282" y="0" width="60" height="26" rx="5" fill="#ffeff7"/>
+    <text x="312" y="18" fill="#a4133c" text-anchor="middle" class="chip">numpy</text>
+    <rect x="352" y="0" width="104" height="26" rx="5" fill="#ffeff7"/>
+    <text x="404" y="18" fill="#a4133c" text-anchor="middle" class="chip">huggingface</text>
   </g>
 
-  <text x="80" y="1000" xml:space="preserve"><tspan class="gry">    ◆  tools</tspan></text>
-  <g transform="translate(120, 1015)">
+  <!-- TOOLS -->
+  <text x="80" y="1150" xml:space="preserve"><tspan class="gry">    ◆  tools</tspan></text>
+  <g transform="translate(120, 1165)">
     <rect x="0" y="0" width="70" height="26" rx="5" fill="#eaeef2"/>
     <text x="35" y="18" fill="#57606a" text-anchor="middle" class="chip">vscode</text>
     <rect x="80" y="0" width="42" height="26" rx="5" fill="#eaeef2"/>
@@ -82,18 +114,19 @@
     <text x="241" y="18" fill="#57606a" text-anchor="middle" class="chip">linux</text>
   </g>
 
+  <!-- CLOSING TAGS -->
   <g xml:space="preserve">
-    <text x="80" y="1105"><tspan class="dot">    ─── ・ 。゚☆: *.☽ .* :☆゚. ───</tspan></text>
-    <text x="80" y="1165"><tspan class="kw">    :author:   </tspan><tspan class="txt">the person on the other side of this</tspan></text>
-    <text x="80" y="1195"><tspan class="kw">    :version:  </tspan><tspan class="txt">still learning, always</tspan></text>
-    <text x="80" y="1225"><tspan class="kw">    :license:  </tspan><tspan class="txt">be kind</tspan></text>
-    <text x="80" y="1255" class="str">"""</text>
+    <text x="80" y="1250"><tspan class="dot">    ─── ・ 。゚☆: *.☽ .* :☆゚. ───</tspan></text>
+    <text x="80" y="1310"><tspan class="kw">    :author:   </tspan><tspan class="txt">Urooj Fatima</tspan></text>
+    <text x="80" y="1340"><tspan class="kw">    :version:  </tspan><tspan class="txt">still learning, always</tspan></text>
+    <text x="80" y="1370"><tspan class="kw">    :license:  </tspan><tspan class="txt">be kind</tspan></text>
+    <text x="80" y="1400" class="str">"""</text>
   </g>
 
-  <text x="450" y="1305" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
+  <text x="450" y="1450" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
 
   <g font-size="18" text-anchor="middle">
-    <text x="450" y="1345">
+    <text x="450" y="1490">
       <tspan fill="#d13487">✦</tspan>
       <tspan fill="#8250df">      ·      </tspan>
       <tspan fill="#0969da">✧</tspan>
@@ -102,5 +135,5 @@
     </text>
   </g>
 
-  <text x="80" y="1395" xml:space="preserve"><tspan fill="#1a7f37" font-size="18">&gt;</tspan><tspan class="txt" font-size="16"> pinned repos below</tspan> <tspan class="mut" font-size="16">↓</tspan></text>
+  <text x="80" y="1540" xml:space="preserve"><tspan fill="#1a7f37" font-size="18">&gt;</tspan><tspan class="txt" font-size="16"> pinned repos below</tspan> <tspan class="mut" font-size="16">↓</tspan></text>
 </svg>
