@@ -7,6 +7,7 @@
     .pur { fill: #8250df; font-size: 16px; }
     .pnk { fill: #d13487; font-size: 16px; }
     .gry { fill: #57606a; font-size: 16px; }
+    .str { fill: #0a3069; font-size: 16px; }
     .chip { font-size: 14px; font-weight: 500; }
   </style>
 
@@ -21,31 +22,26 @@
       <tspan fill="#24292f"> self</tspan>
     </text>
   </g>
-  <text x="450" y="195" font-size="20" fill="#6e7781" text-anchor="middle" font-style="italic">a python developer, self-imported</text>
+  <text x="450" y="195" font-size="20" fill="#6e7781" text-anchor="middle" font-style="italic">a software engineer, self-imported</text>
 
   <text x="450" y="240" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
 
   <g xml:space="preserve">
-    <text x="80" y="295" class="mut">/**</text>
-    <text x="80" y="325"><tspan class="mut"> *   </tspan><tspan class="pnk">✿</tspan><tspan class="txt">  Glad you're here.</tspan></text>
-    <text x="80" y="355" class="mut"> *</text>
-    <text x="80" y="385"><tspan class="mut"> *      </tspan><tspan class="txt">I write code that tries to make small things</tspan></text>
-    <text x="80" y="415"><tspan class="mut"> *      </tspan><tspan class="txt">a little better for the people who use them.</tspan></text>
-    <text x="80" y="445"><tspan class="mut"> *      </tspan><tspan class="txt">Some of it lives on this profile. A lot of it</tspan></text>
-    <text x="80" y="475"><tspan class="mut"> *      </tspan><tspan class="txt">doesn't — yet.</tspan></text>
-    <text x="80" y="505" class="mut"> *</text>
-    <text x="80" y="535"><tspan class="mut"> *      </tspan><tspan class="txt">If you build something, I'd love to see it.</tspan></text>
-    <text x="80" y="565"><tspan class="mut"> *      </tspan><tspan class="txt">If you're stuck, tell me — I'll sit with you</tspan></text>
-    <text x="80" y="595"><tspan class="mut"> *      </tspan><tspan class="txt">while we figure it out.</tspan></text>
-    <text x="80" y="625" class="mut"> *</text>
-    <text x="80" y="655"><tspan class="mut"> *   </tspan><tspan class="dot">─── ・ 。゚☆: *.☽ .* :☆゚. ───</tspan></text>
-    <text x="80" y="685" class="mut"> *</text>
-    <text x="80" y="715"><tspan class="mut"> *   </tspan><tspan class="kw">@dependencies</tspan></text>
-    <text x="80" y="745" class="mut"> *</text>
+    <text x="80" y="295" class="str">"""</text>
+    <text x="80" y="325"><tspan class="pnk">    ✿</tspan><tspan class="txt">  Glad you're here.</tspan></text>
+    <text x="80" y="385"><tspan class="txt">       I write code that tries to make small things</tspan></text>
+    <text x="80" y="415"><tspan class="txt">       a little better for the people who use them.</tspan></text>
+    <text x="80" y="445"><tspan class="txt">       Some of it lives on this profile. A lot of it</tspan></text>
+    <text x="80" y="475"><tspan class="txt">       doesn't — yet.</tspan></text>
+    <text x="80" y="535"><tspan class="txt">       If you build something, I'd love to see it.</tspan></text>
+    <text x="80" y="565"><tspan class="txt">       If you're stuck, tell me — I'll sit with you</tspan></text>
+    <text x="80" y="595"><tspan class="txt">       while we figure it out.</tspan></text>
+    <text x="80" y="655"><tspan class="dot">    ─── ・ 。゚☆: *.☽ .* :☆゚. ───</tspan></text>
+    <text x="80" y="715"><tspan class="kw">    :dependencies:</tspan></text>
   </g>
 
-  <text x="80" y="775" xml:space="preserve"><tspan class="mut"> *   </tspan><tspan class="pur">◆  languages</tspan></text>
-  <g transform="translate(150, 790)">
+  <text x="80" y="775" xml:space="preserve"><tspan class="pur">    ◆  languages</tspan></text>
+  <g transform="translate(120, 790)">
     <rect x="0" y="0" width="72" height="26" rx="5" fill="#fff8c5"/>
     <text x="36" y="18" fill="#7d4e00" text-anchor="middle" class="chip">python</text>
     <rect x="82" y="0" width="96" height="26" rx="5" fill="#fff1e5"/>
@@ -54,8 +50,8 @@
     <text x="211" y="18" fill="#0969da" text-anchor="middle" class="chip">sql</text>
   </g>
 
-  <text x="80" y="850" xml:space="preserve"><tspan class="mut"> *   </tspan><tspan class="kw">◆  backend</tspan></text>
-  <g transform="translate(150, 865)">
+  <text x="80" y="850" xml:space="preserve"><tspan class="kw">    ◆  backend</tspan></text>
+  <g transform="translate(120, 865)">
     <rect x="0" y="0" width="60" height="26" rx="5" fill="#ddf4ff"/>
     <text x="30" y="18" fill="#0969da" text-anchor="middle" class="chip">flask</text>
     <rect x="70" y="0" width="76" height="26" rx="5" fill="#ddf4ff"/>
@@ -64,8 +60,8 @@
     <text x="201" y="18" fill="#0969da" text-anchor="middle" class="chip">rest apis</text>
   </g>
 
-  <text x="80" y="925" xml:space="preserve"><tspan class="mut"> *   </tspan><tspan class="pnk">◆  ai / ml</tspan></text>
-  <g transform="translate(150, 940)">
+  <text x="80" y="925" xml:space="preserve"><tspan class="pnk">    ◆  ai / ml</tspan></text>
+  <g transform="translate(120, 940)">
     <rect x="0" y="0" width="108" height="26" rx="5" fill="#ffeff7"/>
     <text x="54" y="18" fill="#a4133c" text-anchor="middle" class="chip">scikit-learn</text>
     <rect x="118" y="0" width="76" height="26" rx="5" fill="#ffeff7"/>
@@ -74,8 +70,8 @@
     <text x="256" y="18" fill="#a4133c" text-anchor="middle" class="chip">huggingface</text>
   </g>
 
-  <text x="80" y="1000" xml:space="preserve"><tspan class="mut"> *   </tspan><tspan class="gry">◆  tools</tspan></text>
-  <g transform="translate(150, 1015)">
+  <text x="80" y="1000" xml:space="preserve"><tspan class="gry">    ◆  tools</tspan></text>
+  <g transform="translate(120, 1015)">
     <rect x="0" y="0" width="70" height="26" rx="5" fill="#eaeef2"/>
     <text x="35" y="18" fill="#57606a" text-anchor="middle" class="chip">vscode</text>
     <rect x="80" y="0" width="42" height="26" rx="5" fill="#eaeef2"/>
@@ -87,13 +83,11 @@
   </g>
 
   <g xml:space="preserve">
-    <text x="80" y="1075" class="mut"> *</text>
-    <text x="80" y="1105"><tspan class="mut"> *   </tspan><tspan class="dot">─── ・ 。゚☆: *.☽ .* :☆゚. ───</tspan></text>
-    <text x="80" y="1135" class="mut"> *</text>
-    <text x="80" y="1165"><tspan class="mut"> *   </tspan><tspan class="kw">@author  </tspan><tspan class="txt">   the person on the other side of this</tspan></text>
-    <text x="80" y="1195"><tspan class="mut"> *   </tspan><tspan class="kw">@version </tspan><tspan class="txt">   still learning, always</tspan></text>
-    <text x="80" y="1225"><tspan class="mut"> *   </tspan><tspan class="kw">@license </tspan><tspan class="txt">   be kind</tspan></text>
-    <text x="80" y="1255" class="mut"> */</text>
+    <text x="80" y="1105"><tspan class="dot">    ─── ・ 。゚☆: *.☽ .* :☆゚. ───</tspan></text>
+    <text x="80" y="1165"><tspan class="kw">    :author:   </tspan><tspan class="txt">the person on the other side of this</tspan></text>
+    <text x="80" y="1195"><tspan class="kw">    :version:  </tspan><tspan class="txt">still learning, always</tspan></text>
+    <text x="80" y="1225"><tspan class="kw">    :license:  </tspan><tspan class="txt">be kind</tspan></text>
+    <text x="80" y="1255" class="str">"""</text>
   </g>
 
   <text x="450" y="1305" class="dot" text-anchor="middle">·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·</text>
